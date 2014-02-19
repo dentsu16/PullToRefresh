@@ -26,21 +26,21 @@
         <dependency>
             <groupId>com.google.android</groupId>
             <artifactId>support-v4</artifactId>
-            <version>19</version>
+            <version>[r19,)</version>
         </dependency>
 
 		<!-- via maven deployer: https://github.com/mosabua/maven-android-sdk-deployer -->
         <dependency>
             <groupId>android.support</groupId>
             <artifactId>compatibility-v7</artifactId>
-            <version>19.0.1</version>
+            <version>[r19,)</version>
             <type>apklib</type>
         </dependency>
 
         <dependency>
             <groupId>android.support</groupId>
             <artifactId>compatibility-v7</artifactId>
-            <version>19.0.1</version>
+            <version>[r19,)</version>
             <type>jar</type>
         </dependency>
 
@@ -48,13 +48,13 @@
         <dependency>
             <groupId>android.support</groupId>
             <artifactId>compatibility-v7-appcompat</artifactId>
-            <version>19.0.1</version>
+            <version>[r19,)</version>
             <type>apklib</type>
         </dependency>
         <dependency>
             <groupId>android.support</groupId>
             <artifactId>compatibility-v7-appcompat</artifactId>
-            <version>19.0.1</version>
+            <version>[r19,)</version>
             <type>jar</type>
         </dependency>
 

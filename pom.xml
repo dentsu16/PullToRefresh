@@ -12,6 +12,7 @@
 	<inceptionYear>2013</inceptionYear>
 
 	<modules>
+        <module>extras/actionbarcompat</module>
 		<module>library</module>
 	</modules>
 
@@ -38,7 +39,7 @@
 			<dependency>
 				<groupId>com.google.android</groupId>
 				<artifactId>support-v4</artifactId>
-				<version>${android-support.version}</version>
+				<version>[r19,)</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

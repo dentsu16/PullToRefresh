@@ -24,6 +24,7 @@
       <excludeFolder url="file://$MODULE_DIR$/target/generated-sources/combined-assets" />
       <excludeFolder url="file://$MODULE_DIR$/target/generated-sources/combined-resources" />
       <excludeFolder url="file://$MODULE_DIR$/target/generated-sources/extracted-dependencies" />
+      <excludeFolder url="file://$MODULE_DIR$/target/maven-archiver" />
       <excludeFolder url="file://$MODULE_DIR$/target/unpack" />
     </content>
     <orderEntry type="jdk" jdkName="Maven Android API 19 Platform" jdkType="Android SDK" />
@@ -37,11 +38,11 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: xerces:xmlParserAPIs:2.6.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: xpp3:xpp3:1.1.4c" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.json:json:20080701" level="project" />
-    <orderEntry type="library" name="Maven: com.google.android:support-v4:r19" level="project" />
-    <orderEntry type="library" name="Maven: android.support:compatibility-v7:19" level="project" />
-    <orderEntry type="library" name="Maven: android.support:compatibility-v7-appcompat:19" level="project" />
-    <orderEntry type="module" module-name="~apklib-android.support_compatibility-v7_19" />
-    <orderEntry type="module" module-name="~apklib-android.support_compatibility-v7-appcompat_19" />
+    <orderEntry type="library" name="Maven: com.google.android:support-v4:19" level="project" />
+    <orderEntry type="library" name="Maven: android.support:compatibility-v7:19.0.1" level="project" />
+    <orderEntry type="library" name="Maven: android.support:compatibility-v7-appcompat:19.0.1" level="project" />
+    <orderEntry type="module" module-name="~apklib-android.support_compatibility-v7_19.0.1" />
+    <orderEntry type="module" module-name="~apklib-android.support_compatibility-v7-appcompat_19.0.1" />
     <orderEntry type="module" module-name="~apklib-com.github.castorflex.smoothprogressbar_library_0.3.3" />
   </component>
 </module>
