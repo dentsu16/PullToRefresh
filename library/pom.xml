@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.github.chrisbanes.actionbarpulltorefresh</groupId>
 		<artifactId>parent</artifactId>
-		<version>0.9.3</version>
+		<version>0.9.3-mod</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -27,35 +27,6 @@
             <groupId>com.google.android</groupId>
             <artifactId>support-v4</artifactId>
             <version>[r19,)</version>
-        </dependency>
-
-		<!-- via maven deployer: https://github.com/mosabua/maven-android-sdk-deployer -->
-        <dependency>
-            <groupId>android.support</groupId>
-            <artifactId>compatibility-v7</artifactId>
-            <version>[19,)</version>
-            <type>apklib</type>
-        </dependency>
-
-        <dependency>
-            <groupId>android.support</groupId>
-            <artifactId>compatibility-v7</artifactId>
-            <version>[19,)</version>
-            <type>jar</type>
-        </dependency>
-
-        <!-- via maven deployer: https://github.com/mosabua/maven-android-sdk-deployer -->
-        <dependency>
-            <groupId>android.support</groupId>
-            <artifactId>compatibility-v7-appcompat</artifactId>
-            <version>[19,)</version>
-            <type>apklib</type>
-        </dependency>
-        <dependency>
-            <groupId>android.support</groupId>
-            <artifactId>compatibility-v7-appcompat</artifactId>
-            <version>[19,)</version>
-            <type>jar</type>
         </dependency>
 
         <dependency>

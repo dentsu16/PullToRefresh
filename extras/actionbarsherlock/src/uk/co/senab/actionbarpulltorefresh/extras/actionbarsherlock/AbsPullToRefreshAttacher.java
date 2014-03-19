@@ -16,18 +16,18 @@
 
 package uk.co.senab.actionbarpulltorefresh.extras.actionbarsherlock;
 
+import android.app.Activity;
+import android.content.Context;
+import android.os.Build;
+import android.view.View;
+import android.widget.FrameLayout;
+
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.app.SherlockExpandableListActivity;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.app.SherlockListActivity;
 import com.actionbarsherlock.app.SherlockPreferenceActivity;
-
-import android.app.Activity;
-import android.content.Context;
-import android.os.Build;
-import android.view.View;
-import android.widget.FrameLayout;
 
 import uk.co.senab.actionbarpulltorefresh.library.EnvironmentDelegate;
 import uk.co.senab.actionbarpulltorefresh.library.HeaderTransformer;
@@ -59,7 +59,7 @@ class AbsPullToRefreshAttacher extends
     protected void updateHeaderViewPosition(View headerView) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
             super.updateHeaderViewPosition(headerView);
-        } else {
+        } else if (mHeaderViewWrapper != null){
             super.updateHeaderViewPosition(mHeaderViewWrapper);
         }
     }
