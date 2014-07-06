@@ -15,6 +15,7 @@
         <module>extras/actionbarcompat</module>
         <module>extras/actionbarsherlock</module>
 		<module>library</module>
+		<module>extras/actionbarcompat</module>
 	</modules>
 
 	<properties>
